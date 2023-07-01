@@ -1,0 +1,18 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.about{
+        width: 173px;
+        color: rgba(67,67,67,1);
+        position: absolute;
+        top: 574px;
+        left: 215px;
+        font-family: Inter;
+        font-weight: Medium;
+        font-size: 21px;
+        opacity: 1;
+        text-align: left;
+      }
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+nav{
+    background-color: lime;
+    display:grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in;
+    font-size: 18px;
+}
+nav ul a:hover{
+    background-color: green;
+    color: white;
+}
+.item{
+    display: grid;
+    grid-template-columns: repeat(2,ifr);
+    padding: 0px 0px;
+    grid-row: 20px;
+    grid-column: 30px;
+}
+.item img{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}

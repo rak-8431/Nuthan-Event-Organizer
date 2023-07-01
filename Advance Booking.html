@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advance Booking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    
+    .payment-container {
+      display: none;
+      margin-top: 20px;
+    }
+    
+    .payment-container input[type="radio"] {
+      margin-right: 5px;
+    }
+    
+    .payment-container label {
+      margin-top: 0;
+    }
+    
+    .payment-container input[type="submit"] {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Advance Booking</h1>
+  <div class="container">
+    <form id="booking-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="ticket-type">Ticket Type:</label>
+      <select id="ticket-type" name="ticket-type" required>
+        <option value="standard">Standard</option>
+        <option value="vip">VIP</option>
+      </select>
+      
+      <input type="submit" value="Book Tickets">
+    </form>
+    
+    <div class="payment-container">
+      <h2>Payment Options</h2>
+      <form id="payment-form">
+        <label>
+          <input type="radio" name="payment" value="credit-card" required>
+          Credit Card
+        </label>
+        <label>
+            <input type="radio" name="payment" value="paypal" required>
+            PayPal
+          </label>
+        
+        <label>
+            <input type="radio" name="payment" value="Gpay" required>
+            Gpay
+          </label>
+          <label>
+            <input type="radio" name="payment" value="paytm" required>
+            Paytm
+          </label>
+        
+        <input type="submit" value="Pay Now">
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const bookingForm = document.getElementById('booking-form');
+    const paymentContainer = document.querySelector('.payment-container');
+    const paymentForm = document.getElementById('payment-form');
+
+    bookingForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      paymentContainer.style.display = 'block';
+    });
+
+    paymentForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Payment successful! Tickets booked.');
+      // You can add additional logic here, like submitting the form or redirecting to a payment gateway.
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-inika: Inika;
+    --font-hermeneus-one: "Hermeneus One";
+    --font-inherit: inherit;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-21xl: 40px;
+    --font-size-2xl: 21px;
+    --font-size-3xl: 22px;
+    --font-size-13xl: 32px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-red: #f00e0e;
+    --color-black: #000;
+    --color-darkslategray-100: #434343;
+    --color-darkslategray-200: #333;
+    --color-mistyrose: #ecd5d5;
+  
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-24xl: 43px;
+  
+    /* border radiuses */
+    --br-2xl: 21px;
+    --br-xl: 20px;
+  }

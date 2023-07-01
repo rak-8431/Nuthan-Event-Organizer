@@ -1,0 +1,174 @@
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:33%;
+    border:3px solid black;
+    border-radius:50px;
+}
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    cursor:pointer;
+    background-image:url("background1.jpg");
+}
+
+
+.nav-list{
+    width:100%;
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding:26px 30px;
+}
+
+.nav-list li a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;;
+}
+
+.nav-list li a:hover{
+    color:grey;
+}
+
+.rightNav{
+    width:50%;
+    text-align:right;
+}
+.divcol-sm-12-icon {
+    position: absolute;
+    width: calc(100% - 763px);
+    top: 185px;
+    right: 381px;
+    left: 382px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 365px;
+    object-fit: cover;
+  }
+  
+  .heading-3,
+  .heading-31 {
+    position: absolute;
+    top: 574px;
+    left: 215px;
+    line-height: 26.4px;
+    font-weight: 500;
+    color: var(--color-darkslategray-100);
+    display: flex;
+    align-items: center;
+    width: 173px;
+    height: 57px;
+    padding-top:30px;
+  }
+  .heading-31 {
+    top: 1445px;
+    font-size: 22px;
+    width: 364px;
+    height: 55px;
+  }
+  .link-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 495px;
+    height: 285.14px;
+    object-fit: cover;
+  }
+  .harmony-nights {
+    position: absolute;
+    top: 306px;
+    left: 59px;
+    letter-spacing: 0.5px;
+    line-height: 22.86px;
+    text-transform: uppercase;
+  }
+  .heading-32,
+  .item {
+    position: absolute;
+    left: 200px;
+  }
+  .item {
+    top: 1550px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    box-shadow: 0 0 8px -3px #000;
+    width: 495px;
+    height: 351px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-inika);
+  }
+  .heading-32 {
+    top: 1959px;
+    line-height: 26.4px;
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 39px;
+  }
+  .link-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 495px;
+    height: 285px;
+    object-fit: cover;
+  }
+  .kathak-utsav {
+    position: absolute;
+    top: 285px;
+    left: 92px;
+    text-transform: uppercase;
+  }
+  .item1 {
+    position: absolute;
+    top: 2056px;
+    left: 200px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    box-shadow: 0 0 8px -3px #000;
+    width: 495px;
+    height: 351px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-inika);
+  }
+  .book-tickets {
+    position: relative;
+    text-transform: uppercase;
+  }
+  .book-tickets-wrapper {
+    position: absolute;
+    top: 1393px;
+    left: 667px;
+    border-radius: 21px;
+    background-color: #f00e0e;
+    border: 1px solid var(--color-black);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  

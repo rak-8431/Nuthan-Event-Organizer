@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-hannari: Hannari;
+    --font-hermeneus-one: "Hermeneus One";
+    --font-inherit: inherit;
+    --font-inika: Inika;
+    --font-irish-grover: "Irish Grover";
+    --font-happy-monkey: "Happy Monkey";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-13xl: 32px;
+    --font-size-5xl: 24px;
+    --font-size-21xl: 40px;
+    --font-size-2xl: 21px;
+    --font-size-3xl: 22px;
+    --font-size-4xl: 23px;
+    --font-size-sm: 14px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-red: #f00e0e;
+    --color-black: #000;
+    --color-gold: #fdda24;
+    --color-darkslategray-100: #434343;
+    --color-darkslategray-200: #333;
+    --color-mistyrose: #ecd5d5;
+    --color-gray-100: #121010;
+    --color-darkgray: #9c9c9c;
+    --color-royalblue: #2a70e0;
+  
+    /* Gaps */
+    --gap-lgi: 19px;
+    --gap-5xl: 24px;
+  
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-24xl: 43px;
+    --padding-sm: 14px;
+    --padding-11xl-3: 30.3px;
+    --padding-base-8: 15.8px;
+    --padding-11xl: 30px;
+  
+    /* border radiuses */
+    --br-2xl: 21px;
+    --br-52xl: 71px;
+    --br-51xl: 70px;
+    --br-xl: 20px;
+    --br-8xs: 5px;
+  }
